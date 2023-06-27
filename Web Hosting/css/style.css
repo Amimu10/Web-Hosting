@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #1044F2;
+    --secondary-color: #131215;
+    --white-color: #FFFFFF;
+    --dark-color: #292D3C;
+    --light-color: #999999;
+
+
+
+
+}
+
+body {}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: General Sans;
+
+}
+
+p {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.container {
+    max-width: 1240px;
+}
+
+section {
+    padding: 54px 0;
+}
+
+/* ===============
+header start
+==================== */
+header {
+    background: var(--primary-color);
+}
+
+.nav-item .nav-link {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 0 18px !important;
+
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(181, 181, 43);
+}
+
+nav .btn {
+    width: 130px;
+    background: #3D67F5;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    float: right;
+
+}
+
+nav .btn:hover {
+    background-color: rgb(181, 181, 43);
+}
+
+.navbar-brand {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px !important;
+    line-height: 30px;
+    color: rgb(181, 181, 43);
+}
+
+.navbar-brand span {
+    color: rgb(186, 37, 37);
+}
+
+/* ===============
+    banner start
+==================== */
+.banner {
+    margin-top: 54px;
+    margin-bottom: 34px;
+}
+
+.banner-img {
+    width: 85%;
+    object-fit: fill;
+    height: auto;
+}
+
+.banner-text h1 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FFFFFF;
+
+}
+
+.banner-text p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.banner-text h5 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.search-box{
+    width: 95%;
+}
+.search-box input[type=text]::placeholder{
+    padding-left: 12px;
+}
+.search-box input[type=text] {
+    width: 350px;
+    height: 38px;
+    left: 710px;
+    top: 619px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.search-box a {
+    margin-left: -35px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+
+
+/* ===============
+    service start
+==================== */
+.service {
+    background-image: url(../images/service/bg.png);
+    background-position: top 50%;
+   background-repeat: no-repeat;
+   background-position: fixed;
+}
+
+.service-head h2 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #131215;
+}
+
+.check-img {
+    height: 16px;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.service-img {
+    height: auto;
+    max-width: 95%;
+}
+
+/* ===============
+    client start
+==================== */
+.client {
+    background: url(../images/client/bg.png);
+    background-repeat:no-repeat;
+
+}
+
+.client-head h2 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 52px;
+    margin-bottom: 42px;
+    color: #131215;
+
+}
+
+.cards .card {
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    text-align: center;
+    transition: .3s;
+}
+
+.cards .card:hover {
+    transform: scale(1.1);
+}
+
+.card .card-header {
+    border: none;
+}
+
+.card-header h4 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+    color: #292D3C;
+}
+
+.card-body p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -20px;
+    text-align: center;
+    color: #292D3C;
+    opacity: 0.7;
+}
+
+.card-body h5 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #292D3C;
+}
+
+.client-info h4 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #292D3C;
+}
+
+/* ==================
+    our-service start
+==================== */
+.our-service {
+    background: var(--primary-color);
+}
+
+.our-service .left-img {
+    height: auto;
+    max-width: 95%
+}
+
+.our-service-head h2 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 52px;
+    margin-bottom: 42px;
+    color: #fff;
+}
+
+.info h5 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.info p {
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+/* ==================
+    pricing start
+==================== */
+.pricing h2 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.price-list {
+    flex-flow: row wrap;
+}
+
+.pricing-head p {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #292D3C;
+    margin-bottom: 38px;
+}
+
+.card .list .tick-img {
+    height: 14px;
+
+}
+
+.pricing .card {
+    width: 260px;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: .3s;
+    text-align: left;
+
+
+}
+
+.pricing .card:hover {
+    color: #FFFFFF !important;
+    transform: scale(1.1);
+    box-shadow: 0px 1px 20px rgba(0, 78, 185, 0.3);
+    border-radius: 20px;
+    background: #1044F2;
+
+}
+
+.card .price {
+    font-size: 28px;
+}
+
+.card span {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: -8px;
+}
+
+.list p {
+    margin-left: 18px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    color: #292D3C;
+
+}
+
+.card .btn {
+    display: block;
+}
+
+.card .btn:hover {
+    background-color: rgb(181, 181, 43);
+}
+
+/* ==================
+    contact start
+==================== */
+.contact {
+    background: var(--primary-color);
+    background-image: url(../images/contact/left.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url(../images/contact/top.png);
+    background-position: right top;
+}
+
+.contact .left h2 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.contact .left-img {
+    margin-top: 70px;
+    position: absolute;
+    margin-left: -100px;
+}
+
+.world-img {
+    position: absolute;
+    height: auto;
+    margin-top: 194px;
+
+}
+
+.contact form {
+    margin-top: 30px;
+    margin: 40px auto;
+    text-align: center;
+    position: relative;
+}
+
+.input-text {
+    gap: 21px;
+}
+
+.contact form input {
+    width: 100%;
+    height: 38px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    margin-bottom: 25px;
+
+}
+
+.contact form ::placeholder {
+    opacity: 1;
+    padding-left: 8px;
+    color: #101523;
+    opacity: 0.4;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+
+}
+
+.contact .btn {
+    width: 96%;
+    margin-left: 10px;
+    height: 38px;
+    top: 422px;
+    border: 1px solid #EBF0FC;
+    border-radius: 5px;
+    color: #EBF0FC;
+    display: block;
+
+}
+
+.contact .btn:HOVER {
+    background: rgb(181, 181, 43);
+}
+
+/* ==================
+    footer start
+==================== */
+.footer .logo {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    color: rgb(181, 181, 43);
+    margin-top: 10px;
+}
+
+.footer .logo span {
+    color: rgb(186, 37, 37);
+}
+
+.footer-menu li {
+    display: inline-block;
+    padding: 8px;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    color: #263238;
+
+}
+
+.footer-menu ul li a:hover {
+    color: rgb(181, 181, 43);
+}
+
+.footer-social i {
+    font-size: 24px;
+    margin-top: 5px;
+    padding: 15px;
+    color: var(--dark-color);
+
+}
+
+.footer-social i:first-child {
+    padding-left: 0;
+}
+
+.footer p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #263238;
+    margin-top: 38px;
+   
+}

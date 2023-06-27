@@ -1,0 +1,170 @@
+@media screen and (max-width: 1400px) {
+    .navbar {
+        width: 95%;
+    }
+
+    .client-info {
+        width: 95%;
+
+    }
+
+    .footer-menu li {
+        padding-left: 5px;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .cards .card {
+        width: 250px;
+        height: 310px;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .footer-menu li {
+        padding: 5px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .nav-item .nav-link {
+        text-align: center;
+        margin-top: 32px;
+    }
+
+    header .btn {
+        text-align: center;
+    }
+
+    .banner-text h1 {
+        font-size: 42px;
+
+    }
+
+    .cards {
+        gap: 20px;
+        width:auto
+    }
+
+    .cards .card {
+        width: 250px;
+    }
+
+    .pricing .card {
+        width: 210px;
+        margin-left: -29px;
+
+    }
+
+    .footer .logo {
+        margin-left: 20px;
+    }
+
+    .footer .list li {
+        width: 100%;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+    }
+
+
+    .brand {
+        display: block;
+
+    }
+
+    .brand-img {
+        height: 35px;
+        margin-left: 16px;
+    }
+
+    .footer-social {
+        margin-left: 8px;
+    }
+
+    .footer p {
+        margin-left: 20px;
+    }
+
+    .footer-social i {
+        margin-left: 15px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .banner-text h1 {
+        font-size: 38px;
+        margin-top: 24px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .price-list {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .price-list .card {
+        margin-left: 110px;
+    }
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .banner-text h1 {
+        margin-top: 24px;
+    }
+
+    .price-list .card {
+        flex-wrap: nowrap;
+    }
+
+    .price-list .card:only-child {
+        margin-right: 0;
+    }
+
+    .logo-img .logo-icon {
+        width: 45px;
+        height: auto;
+    }
+
+    .footer {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .footer p {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 580px) {
+    .price-list .card {
+
+        margin-left: -20px;
+    }
+
+    .price-list .card:only-child {
+        margin: 0;
+    }
+
+    
+}
+@media screen and (max-width: 900px){
+    .cards .card {
+        width: 220px;
+        height: fit-content;
+      }
+}
